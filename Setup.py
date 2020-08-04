@@ -9,12 +9,12 @@ REQUIRED = [
     "pandas"
 ]
 
-wiht open("README.md", "r") as file:
+with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 
 setuptools.setup(
     name="Lambdata_peggyk1",
-    version="0.0.1",
+    version="0.0.2",
     author="peggyk1",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,

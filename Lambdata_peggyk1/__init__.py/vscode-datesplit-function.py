@@ -4,6 +4,7 @@ Funtion to change to datetime format and split into day/month/year columns
 
 import pandas as pd
 
+
 def datesplit(df):
     df['date'] = pd.to_datetime(df['date'])
 
@@ -12,4 +13,3 @@ def datesplit(df):
     df['day'] = df['date'].dt.day
 
     return df
-
